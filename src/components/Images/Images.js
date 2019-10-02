@@ -13,7 +13,6 @@ const Images = (props) => (
           image={elem.urls.small}
           download={elem.links.download}
           title={elem.user.first_name}
-          onclick={() => props.addFavorite(elem)}
         />
       )
     })}
