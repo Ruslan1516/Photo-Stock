@@ -1,0 +1,8 @@
+@media (max-width: 480px) {
+    .PhotoSearch input {
+        font-size: 36px;
+    }
+    .PhotosName button {
+        margin-right: 0;
+    }
+}

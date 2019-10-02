@@ -1,0 +1,57 @@
+.Photos {
+    display: flex;
+    justify-content: center;
+}
+
+.PhotoSearch {
+    padding: 50px 0;
+    background: #000000;
+}
+
+.Border {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 70%;
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PhotoSearch input {
+    border: none;
+    background: #000000 !important;
+    color: #ffffff;
+    text-align: center;
+    font-size: 72px;
+    line-height: 86px;
+    outline: none;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.PhotoSearch input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.PhotosName{
+    display: flex;
+    justify-content: center;
+}
+
+.PhotosName p {
+    margin-left: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.PhotosName button {
+    line-height: 21px;
+    background: #000000;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.PhotosName p:hover {
+    border-bottom: 1px solid #ffffff;
+}

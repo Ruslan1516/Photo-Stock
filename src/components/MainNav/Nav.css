@@ -1,0 +1,57 @@
+.MainNav {
+    background: #000000;
+    padding: 20px 40px;
+    display: flex;
+}
+
+.LogoName {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.MainNavLogo {
+    display: inline-block;
+}
+
+.LogoName a {
+    color: #ffffff;
+}
+
+.IconsNav {
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    border: none;
+    padding-left: 46px;
+    background: #000000;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.RightNav span:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.RightNav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.LeftNav {
+    display: flex;
+    width: 50%;
+}
+
+.MainNav a img {
+    margin-top: 10px;
+}
+
+.LogoIcon {
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 27px;
+    display: inline-block;
+}

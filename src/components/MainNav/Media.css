@@ -1,0 +1,35 @@
+@media (max-width: 1200px) {
+    .RightNav {
+        margin-right: 0;
+    }
+    .PhotosName p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 960px) {
+    .LeftNav {
+        margin-left: 30px;
+    }
+    .IconsNav {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 740px) {
+    .RightNav span {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .LogoName {
+        display: none;
+    }
+    .IconsNav {
+        margin-left: 5px;
+    }
+    .Logo {
+        display: none;
+    }
+}

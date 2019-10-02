@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+    .Images {
+        flex-wrap: wrap;
+    }
+
+    .MainInfoCard {
+        width: 33.3333%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .Images {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .MainInfoCard {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .StarWarsLogo {
+        width: 35%;
+        height: 135px;
+    }
+}
+
+@media (max-width: 750px) {
+    .MainInfoCard {
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+    .Images {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .Images {
+        width: 100%;
+    }
+    .StarWarsLogo {
+        margin-top: 10px;
+    }
+}
